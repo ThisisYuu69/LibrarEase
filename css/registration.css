@@ -1,0 +1,128 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('../resources/book_bg.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.isset {
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-danger {
+    color: red;
+}
+
+.container {
+    background: white;
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.heading h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form {
+    float: left;
+    padding-left: 9px;
+    font-weight: lighter;
+}
+
+.thin-text {
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.thin-text label {
+    color: black;
+    margin-left: 50;
+    font-weight: lighter;
+}
+
+.input-field input[type="text"],
+.input-field input[type="date"],
+.input-field input[type="tel"],
+.input-field input[type="email"],
+.input-field input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #1f2a41;
+    color: white;
+    padding: 10px 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #324060;
+    color: white;
+}
+
+.login {
+    text-align: center;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+}
+
+.login a:hover {
+    color: #1f2a41;
+}
+
+.input-field input[type="password"] {
+    display: inline-block;
+    position: relative;
+}
+
+.pass-icon {
+    position: absolute;
+    right: 30px;
+    top: 75%;
+    width: 7%;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+}
+
+.submit-center {
+    text-align: center;
+}

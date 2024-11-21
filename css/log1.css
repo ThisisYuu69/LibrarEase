@@ -1,0 +1,109 @@
+body {
+    background-image: url('../resources/book_bg.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    width: 150px;
+}
+
+.remember-forget a {
+    text-decoration: none;
+    color: black;
+}
+
+.remember-forget a:hover {
+    color: #1f2a41;
+}
+
+.remember-forget label {
+    color: black;
+}
+
+.password_container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-self: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #1f2a41;
+    color: white;
+    padding: 15px 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #324060;
+    color: white;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    
+}
+
+.create-account small {
+    color: black;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: black;
+}
+
+.create-account a:hover {
+    color: #1f2a41;
+}
+
+.container input[type="password"] {
+    display: inline-block;
+    position: relative;
+}
+
+.pass-icon {
+    position: absolute;
+    right: 13px;
+    top: 20%;
+    width: 7%;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+}
